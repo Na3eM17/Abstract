@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.mobile {
+  display: none;
+}
 .container {
   background-color: black;
   width: 100%;
@@ -72,6 +74,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .mobile {
+    display: flex;
+  }
+  .mobile ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+  }
   .logo {
     margin-left: 15px;
     width: 69%;

@@ -17,7 +17,13 @@
 .input-search {
   border-radius: 5px;
   width: 50%;
-  border: 1px solid red;
+  border: 1px solid rgb(0, 0, 0);
+  position: relative;
+}
+.input-search:hover {
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid rgb(166, 0, 255);
   position: relative;
 }
 input {
@@ -32,8 +38,11 @@ input {
   text-decoration: none;
   color: black;
   position: absolute;
-  right: 6%;
-  top: 30%;
+  right: 4%;
+  top: 25%;
+}
+.input-search a:hover {
+  color: rgb(166, 0, 255);
 }
 @media screen and (max-width: 1190px) {
   .input-search {
