@@ -47,13 +47,13 @@
   font-size: 30px;
 }
 .help {
+  position: fixed;
   cursor: pointer;
   justify-content: space-around;
   width: 80px;
   font-size: 10px;
   font-family: sans-serif;
   align-items: center;
-  position: absolute;
   bottom: 1%;
   right: 2%;
   border-radius: 30px;
