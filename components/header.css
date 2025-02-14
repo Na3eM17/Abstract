@@ -1,9 +1,32 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .mobile {
   display: none;
+}
+.menue-div {
+  border-top: 1px solid white;
+  font-family: sans-serif;
+  padding: 50px 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  z-index: 1;
+}
+.menue-div hr {
+  width: 50%;
+}
+.menue-div a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
 }
 .container {
   background-color: black;
@@ -43,20 +66,22 @@ body {
   background-color: #000000;
   border-radius: 10px;
   border: 1px solid #ffff;
-  font-size: 30px;
-  margin: 0 20px;
+  font-size: 25px;
+  margin: 0 15px;
   color: white;
 }
 .Signup {
   padding: 10px 20px;
   background-color: #4c5fd5;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 10px;
   color: white;
 }
 
 .buttons {
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  width: 40%;
   margin-right: 50px;
 }
 
@@ -66,16 +91,14 @@ body {
   }
   .logo {
     margin-left: 50px;
-    width: 25%;
+    width: 35%;
   }
   .container {
     height: 55px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .mobile {
     display: flex;
+    margin-right: 10px;
   }
   .mobile ul {
     display: flex;
@@ -84,6 +107,9 @@ body {
     align-items: center;
     gap: 5px;
   }
+}
+
+@media screen and (max-width: 768px) {
   .logo {
     margin-left: 15px;
     width: 69%;

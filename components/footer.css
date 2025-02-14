@@ -1,8 +1,8 @@
 .container4 {
   width: 100%;
-  height: auto;
+  padding-top: 50px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   background-color: black;
   color: #fff;
@@ -39,12 +39,31 @@
   text-align: left;
 }
 .footer-logo {
-  padding-top: 100px;
+  padding-top: 300px;
   display: flex;
   align-items: end;
 }
 .div2 h2 {
   font-size: 30px;
+}
+.help {
+  cursor: pointer;
+  justify-content: space-around;
+  width: 80px;
+  font-size: 10px;
+  font-family: sans-serif;
+  align-items: center;
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+  color: white;
+  background-color: #4c5fd5;
+}
+.help h2 {
+  margin: 0;
 }
 @media screen and (max-width: 1190px) {
   .container4 {
